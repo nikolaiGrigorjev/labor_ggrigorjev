@@ -131,6 +131,7 @@
             this.button7.TabIndex = 9;
             this.button7.Text = "Начать";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // radioButton2
             // 
@@ -194,6 +195,7 @@
             this.button14.TabIndex = 19;
             this.button14.Text = "Поиск";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // checkBox2
             // 
